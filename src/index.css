@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-body {
+  min-height: 250px;
+  border-radius: 15px;
+}
+
+.card-body:hover {
+  box-shadow: 1px 1px 7px 3px #c3c3c3;
+  background-color: #efefef;
+  cursor: grab;
+}
+
+.page-item{
+  cursor: pointer;
+}
